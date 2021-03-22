@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="./css.css">
+    </head>
+    <body>
+        <div id="name_div">
+            <label for="name">First name:</label>
+            <input type="text" id="name" >
+            <button onclick="getName()">Start Game</button>
+        </div>   
+        <div class="rol_page">
+            <div class="rol_contenier">
+                <div id="rol1" >🤣</div>
+                <div id="rol2">🤣</div>
+                <div id="rol3">🤣</div>
+            </div>
+            <div class="button_box">
+                <button onclick="start()">SPIN</button>
+            </div>
+        </div>
+        <div class="win">
+            <div class="last_win_div">
+            <h3>Last Win</h3>
+                <output id="last_win_num"></output>
+            </div>
+            <div class = "total_win_div">
+                <h3>Total win</h3>
+                <output id="total_win"></output>
+            </div>
+        </div>
+       
+    </body>
+    <script src="./js.js"></script>
+</html>
